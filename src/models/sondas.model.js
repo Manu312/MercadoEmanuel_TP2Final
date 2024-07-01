@@ -6,7 +6,6 @@ class Sondas{
         }
     };
     static async createSondas(sonda){
-        console.log("model sonda || ",sonda.id,sonda.temperatura)
         this.sondas.push(sonda);
         return "create onda ok";
     };
